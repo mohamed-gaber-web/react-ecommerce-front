@@ -1,0 +1,15 @@
+1- to create nav link => import { NavLink } from 'react-router-dom';
+- <Nav.Link as={NavLink} to="route-name"></Nav.Link>
+- as={NavLink} to save style bootstrap component { Nav.Link }
+
+2- error page
+- create pages/Error.tsx
+- use Link and replace={true} till don't work back page and remove before page from stack pages
+
+3- client side router param guard ( save param from any type without to give him)
+- use [ loader ] in routes 
+- loader: ({ param }) => {}
+- throw new Response("Bad Request", {
+    statusText: "category not found ",
+    status: 400
+ })
