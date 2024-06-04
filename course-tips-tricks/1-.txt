@@ -13,3 +13,6 @@
     statusText: "category not found ",
     status: 400
  })
+
+4- Create dynamic error page
+- useRouterError- isRoteErrorResponse => react-router-dom
